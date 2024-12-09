@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../css/login.css">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<title>Login</title>
+</head>
+<body>
+
+  <header class="header">
+      <div class="header-1">
+          <a href="#" class="logo"> <i class="fas fa-book"></i> bookly </a>
+          <form action="" class="search-form">
+              <input type="search" name="" placeholder="search here..." id="search-box">
+              <label for="search-box" class="fas fa-search"></label>
+          </form>
+          <div class="icons">
+              <div id="search-btn" class="fas fa-search"></div>
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-shopping-cart"></a>
+              <a href="login.html" class="fas fa-user"></a>
+          </div>
+      </div>
+      <div class="header-2">
+          <nav class="navbar">
+              <a href="../#home">home</a>
+              <a href="../#featured">featured</a>
+              <a href="../#arrivals">arrivals</a>
+              <a href="../#reviews">reviews</a>
+              <a href="../#blogs">blogs</a>
+          </nav>
+      </div>
+  </header>
+
+<div class="main">
+<form action="#" method="post">
+  <h2 style="text-align: center;">Login to the website</h2>
+  <div class="imgcontainer">
+    <img src="../image/img_avatar2.png" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <a href="../templates/Signup.html"><button type="button" class="cancelbtn">Signup</button></a>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+</div>
+</body>
+</html>

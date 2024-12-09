@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Book Store</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<!-- header section starts  -->
+<header class="header">
+    <div class="header-1">
+        <a href="#" class="logo"> <i class="fas fa-book"></i> bookly </a>
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="templates/login.html" class="fas fa-user"></a>
+        </div>
+    </div>
+    <div class="header-2">
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#featured">featured</a>
+            <a href="#arrivals">arrivals</a>
+            <a href="#reviews">reviews</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+    </div>
+</header>
+<!-- header section ends -->
+
+<!-- bottom navbar  -->
+<nav class="bottom-navbar">
+    <a href="#home" class="fas fa-home"></a>
+    <a href="#featured" class="fas fa-list"></a>
+    <a href="#arrivals" class="fas fa-tags"></a>
+    <a href="#reviews" class="fas fa-comments"></a>
+    <a href="#blogs" class="fas fa-blog"></a>
+</nav>
+
+<!-- home section starts  -->
+<section class="home" id="home">
+    <div class="row">
+        <div class="content">
+            <h3>upto 35% off</h3>
+            <p>Shop more than Tk. 1000 books every friday and saturday and get a chance to win upto 35% discount</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+        <div class="book-show">
+          <div class="book-list">
+              <a href="#" class="book-image"><img src="image/book-1.png" alt=""></a>
+              <a href="#" class="book-image"><img src="image/book-2.png" alt=""></a>
+              <a href="#" class="book-image"><img src="image/book-3.png" alt=""></a>
+          </div>
+        </div>
+        <img src="image/stand.png" class="stand" alt="">
+    </div>
+</section>
+<!-- home section ense  -->
+
+<!-- icons section starts  -->
+<section class="icons-container">
+    <div class="icons">
+        <i class="fas fa-shipping-fast"></i>
+        <div class="content">
+            <h3>free shipping</h3>
+            <p>order over $100</p>
+        </div>
+    </div>
+    <div class="icons">
+        <i class="fas fa-lock"></i>
+        <div class="content">
+            <h3>secure payment</h3>
+            <p>100 secure payment</p>
+        </div>
+    </div>
+    <div class="icons">
+        <i class="fas fa-redo-alt"></i>
+        <div class="content">
+            <h3>easy returns</h3>
+            <p>10 days returns</p>
+        </div>
+    </div>
+    <div class="icons">
+        <i class="fas fa-headset"></i>
+        <div class="content">
+            <h3>24/7 support</h3>
+            <p>call us anytime</p>
+        </div>
+    </div>
+</section>
+<!-- icons section ends -->
+
+<!-- featured section starts  -->
+<section class="featured" id="featured">
+    <h1 class="heading"> <span>featured books</span> </h1>
+
+    <div class="featured-list">
+
+      <div class="book-box">
+        <div class="image">
+          <img src="image/os.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>Operating System Concepts, 9th Edition</h3>
+            <div class="price">TK. 1,260</div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+      </div>
+
+      <div class="book-box">
+        <div class="image">
+          <img src="image/contest.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>প্রোগ্রামিং কনটেস্ট ডেটা স্ট্রাকচার ও অ্যালগরিদম</h3>
+            <div class="price">TK. 323</div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+      </div>
+
+      <div class="book-box">
+        <div class="image">
+          <img src="image/java.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>অ্যাডভান্সড জাভা প্রোগ্রামিং</h3>
+            <div class="price">TK. 387</div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+      </div>
+
+      <div class="book-box">
+        <div class="image">
+          <img src="image/python.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>পাইথন প্রোগ্রামিং ল্যাংগুয়েজ 3</h3>
+            <div class="price">TK. 344</div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+      </div>
+
+      <div class="book-box">
+        <div class="image">
+          <img src="image/database.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>Database Processing</h3>
+            <div class="price">TK. 1,042</div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+      </div>
+    </div>
+</section>
+<!-- featured section ends -->
+
+<!-- newsletter section starts -->
+<section class="newsletter">
+    <form action="">
+        <h3>subscribe for latest updates</h3>
+        <input type="email" name="" placeholder="enter your email" id="" class="box">
+        <input type="submit" value="subscribe" class="btn">
+    </form>
+</section>
+<!-- newsletter section ends -->
+
+<!-- arrivals section starts  -->
+<section class="arrivals" id="arrivals">
+    <h1 class="heading"> <span>new arrivals</span> </h1>
+    <div class="arrival-contents">
+
+            <a href="#" class="arrival-book-box">
+                <div class="image">
+                    <img src="image/com-arch.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Computer Architecture</h3>
+                    <div class="price">TK. 990</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="arrival-book-box">
+                <div class="image">
+                    <img src="image/algo-collection.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>অ্যালগরিদম কালেকশন</h3>
+                    <div class="price">TK. 525</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="arrival-book-box">
+                <div class="image">
+                    <img src="image/d-cpp.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Data Structures and Algorithm Analysis in C++</h3>
+                    <div class="price">TK. 1,312</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="arrival-book-box">
+                <div class="image">
+                    <img src="image/d-os.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Distributed Operating Systems And Algorithm Analysis</h3>
+                    <div class="price">TK. 1,395</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="arrival-book-box">
+                <div class="image">
+                    <img src="image/php.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>পিএইচপি ওয়েব প্রোগ্রামিং</h3>
+                    <div class="price">Tk. 396</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="arrival-book-box">
+                <div class="image">
+                    <img src="image/html.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Html and Css: The Complete Reference </h3>
+                    <div class="price">TK. 1,798</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+    </div>
+</section>
+<!-- arrivals section ends -->
+
+<!-- deal section starts  -->
+<section class="deal">
+    <div class="content">
+        <h3>deal of the day</h3>
+        <h1>upto 50% off</h1>
+        <p>Join as a new user and get upto 50% off on your first orders.</p>
+        <a href="#" class="btn">shop now</a>
+    </div>
+    <div class="image">
+        <img src="image/deal-img.jpg" alt="">
+    </div>
+</section>
+<!-- deal section ends -->
+
+<!-- reviews section starts  -->
+<section class="reviews" id="reviews">
+    <h1 class="heading"> <span>client's reviews</span> </h1>
+
+    <div class="all-reviews">
+            <div class="review-box">
+                <img src="image/pic-1.png" alt="">
+                <h3>Md. Junayed Mahbub</h3>
+                <p>এই বইটিতে জাভা প্রোগ্রামিং সম্পর্কে লেখা হয়েছে l ধন্যবাদ ভাই এত সুন্দর করে সব কনটেন্টগুলো বুঝিয়ে দেওয়ার জন্য lপ্রোগ্রামিং এর উপর ভিত্তি করে বইটি লে  ...</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="review-box">
+                <img src="image/pic-5.png" alt="">
+                <h3>Muhaiminul Islam Shakil</h3>
+                <p>I am a student of Jahangirnagar University. I think it's the best book for the beginer ever I see.Thanks to A N M Bazlur Rahman Sir for writting such   ...</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="review-box">
+                <img src="image/pic-3.png" alt="">
+                <h3>Jubayer Mahmud Jony</h3>
+                <p>বাংলায় ভালো রিসোর্সের অভাবে জাভার অনেক বেসিক ব্যাপারগুলোই অনেকের কাছে অনেক কঠিন মনে হয়। সেদিক থেকে এই বইটাতে অনেক সহজভাবে মাতৃভাষায় লিখার কারণে পাঠকরা  ...</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+    </div>
+</section>
+<!-- reviews section ends -->
+
+<!-- blogs section starts  -->
+<section class="blogs" id="blogs">
+    <h1 class="heading"> <span>our blogs</span> </h1>
+    <div class="blog-content">
+            <div class="blog-box">
+                <div class="image">
+                    <img src="image/blog-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>নভেম্বর-২০২১ এর ৫টি বেস্ট সেলার উপন্যাস</h3>
+                    <p>বাঙালীর বই পড়া জীবনের বেশিরভাগ সময় ধরে যেই ঘরানার বইগুলো সবচেয়ে বেশি সময় পড়া হয় সেগুলোর মধ্যে একটি হলো...</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="blog-box">
+                <div class="image">
+                    <img src="image/blog-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>অবসরে পড়ার মত কয়েকটি সেরা বই</h3>
+                    <p>ডিসেম্বরের শহরে শৈশবে হালকা শীতের দুপুরে অবসর সময়ে ছোটবেলায় কাথা কিংবা কম্বলের ভেতর ঢুকে গেছি বই নিয়ে...</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="blog-box">
+                <div class="image">
+                    <img src="image/blog-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>ওয়েব ডেভেলপমেন্ট এর বেসিক জ্ঞান</h3>
+                    <p>Web Development Stack হলো কয়েকটি ওয়েব টেকনোলজি বা টুলস যেমন, বিভিন্ন Programming Language, Framework ও...</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+    </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>our locations</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Dhaka </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Rajshahi </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Sylhet </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Dinajpur </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Jessore </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Chittagong </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> featured </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> arrivals </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> reviews </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> blogs </a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> account info </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> ordered items </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> privacy policy </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> payment method </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> our serivces </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+            <a href="#"> <i class="fas fa-envelope"></i>jubayermahmud256@gmail.com</a>
+            <img src="image/worldmap.png" class="map" alt="">
+        </div>
+
+    </div>
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+
+    <div class="credit"> created by <span>Md. Jubayer Mahmud Jony</span> | all rights reserved! </div>
+
+</section>
+
+<!-- footer section ends -->
+
+</body>
+</html>
